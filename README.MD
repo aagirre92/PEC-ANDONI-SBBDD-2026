@@ -36,7 +36,7 @@ Explotación de un conjunto de datos relacional propio registrado en el foro de 
   * `recommendations`: Interacciones y horas de juego registradas (`review_id`, `app_id`, `user_id`, horas, recomendación).
 * **Consultas:** Desarrollo de 4 consultas en HiveQL sobre las tres tablas, incluyendo operaciones de agregación y reunión (`JOIN`).
 
-> **Nota sobre archivos pesados en el repositorio:** Los ficheros originales sin comprimir/filtrar (`archive.zip` y `recommendations.csv` completo de >1,8 GB) están excluidos en `.gitignore` por superar el límite de 100 MB de GitHub. Para la ejecución en la VM de Cloudera se utiliza una versión filtrada de `recommendations.csv` acotada a *Elden Ring* y *Grand Theft Auto V (GTA V)*.
+> **Nota sobre archivos pesados en el repositorio:** Los ficheros originales sin comprimir/filtrar (`archive.zip` y `recommendations.csv` completo de >1,8 GB) están excluidos en `.gitignore` por superar el límite de 100 MB de GitHub. Para la ejecución en la VM de Cloudera se utiliza una versión filtrada de `recommendations.csv` acotada a *Elden Ring* y *Grand Theft Auto IV (GTA IV)*.
 
 ---
 
